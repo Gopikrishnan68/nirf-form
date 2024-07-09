@@ -1,0 +1,210 @@
+/* Basic CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+/* CSS for Sanctioned (Approved) Intake form */
+.instData {
+    margin: 20px;
+}
+
+.instData h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.instData table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.instData th, .instData td {
+    /* border: 1px solid #ddd; */
+    padding: 0px;
+    text-align: center;
+    border: 1.5px solid black;
+
+}
+
+.instData th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.instData td input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* CSS for Student Strength and Placement & Higher Studies forms */
+.Students {
+    margin-bottom: 20px;
+}
+
+.Students h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Students h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.Students h6 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.Students table, .placement-and-higher-students table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.Students th, .Students td, .placement-and-higher-students th, .placement-and-higher-students td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.Students th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.Students td input[type="text"], .placement-and-higher-students td input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* CSS for Placement & Higher Studies tables */
+.placement-and-higher-students {
+    margin-bottom: 20px;
+}
+
+.placement-and-higher-students header {
+    margin-bottom: 10px;
+}
+
+.placement-and-higher-students h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.placement-and-higher-students table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.placement-and-higher-students th, .placement-and-higher-students td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.placement-and-higher-students th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.placement-and-higher-students td input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h7, h8, h9, h10 {
+    margin-top: 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px; /* Increased margin for tables */
+    margin-top: 30px; /* Increased margin for tables */
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px; /* Increased padding for cells */
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Section specific styles */
+.Finance,
+.IPR,
+.Sponsored\ Research\ Details,
+.Consultancy\ Project\ Details,
+.PCS\ Facilities\: Facilities\ of\ physically\ challenged\ students,
+.Faculty\ Details {
+    margin-bottom: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    table {
+        font-size: 12px;
+    }
+}
